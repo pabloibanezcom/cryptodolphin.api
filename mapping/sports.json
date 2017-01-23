@@ -1,0 +1,22 @@
+[
+    {
+        "avKey": "Soccer",
+        "en": "Soccer",
+        "es": "Futbol"
+    },
+    {
+        "avKey": "Basketball",
+        "en": "Basketball",
+        "es": "Baloncesto"
+    },
+    {
+        "avKey": "Football",
+        "en": "Football",
+        "es": "Futbol Americano"
+    },
+    {
+        "avKey": "Tennis",
+        "en": "Tennis",
+        "es": "Tenis"
+    }
+]
