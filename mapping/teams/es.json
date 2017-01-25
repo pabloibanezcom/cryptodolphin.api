@@ -1,0 +1,122 @@
+[
+    {
+        "avKey": "REAL MADRID",
+        "key": "real_madrid",
+        "name": "Real Madrid",
+        "country": "es"
+    },
+    {
+        "avKey": "OSASUNA",
+        "key": "osasuna",
+        "name": "Osasuna",
+        "country": "es"
+    },
+    {
+        "avKey": "MALAGA",
+        "key": "malaga",
+        "name": "Malaga",
+        "country": "es"
+    },
+    {
+        "avKey": "VILLARREAL",
+        "key": "villareal",
+        "name": "Villareal",
+        "country": "es"
+    },
+    {
+        "avKey": "GRANADA",
+        "key": "granada",
+        "name": "Granada",
+        "country": "es"
+    },
+    {
+        "avKey": "ALAVES",
+        "key": "alaves",
+        "name": "Alaves",
+        "country": "es"
+    },
+    {
+        "avKey": "ATLETICO DE MADRID",
+        "key": "atletico_madrid",
+        "name": "Atletico de Madrid",
+        "country": "es"
+    },
+    {
+        "avKey": "EIBAR",
+        "key": "eibar",
+        "name": "Eibar",
+        "country": "es"
+    },
+    {
+        "avKey": "DEPORTIVO",
+        "key": "deportivo",
+        "name": "Deportivo de la Coruña",
+        "country": "es"
+    },
+    {
+        "avKey": "LEGANES",
+        "key": "leganes",
+        "name": "Leganes",
+        "country": "es"
+    },
+    {
+        "avKey": "CELTA",
+        "key": "celta",
+        "name": "Celta",
+        "country": "es"
+    },
+    {
+        "avKey": "REAL BETIS",
+        "key": "betis",
+        "name": "Real Betis",
+        "country": "es"
+    },
+    {
+        "avKey": "FC BARCELONA",
+        "key": "barcelona",
+        "name": "FC Barcelona",
+        "country": "es"
+    },
+    {
+        "avKey": "ESPANYOL",
+        "key": "espanyol",
+        "name": "Espanyol",
+        "country": "es"
+    },
+    {
+        "avKey": "SEVILLA FC",
+        "key": "sevilla",
+        "name": "Sevilla FC",
+        "country": "es"
+    },
+    {
+        "avKey": "ATHLETIC CLUB",
+        "key": "athletic",
+        "name": "Athletic de Bilbao",
+        "country": "es"
+    },
+    {
+        "avKey": "SPORTING GIJON",
+        "key": "sporting",
+        "name": "Sporting Gijon",
+        "country": "es"
+    },
+     {
+        "avKey": "REAL SOCIEDAD",
+        "key": "real_sociedad",
+        "name": "Real Sociedad",
+        "country": "es"
+    },
+    {
+        "avKey": "LAS PALMAS",
+        "key": "las_palmas",
+        "name": "Las Palmas",
+        "country": "es"
+    },
+    {
+        "avKey": "VALENCIA",
+        "key": "valencia",
+        "name": "Valencia",
+        "country": "es"
+    }
+]

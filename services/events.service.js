@@ -1,4 +1,5 @@
 var _ = require('lodash');
+var teamsService = require('./teams.service');
 var competitions = require('../mapping/competitions');
 
 var eventsService = {};
@@ -36,12 +37,10 @@ eventsService.order = function (events) {
                 sport.competitions.push(competition);
             }
             //create event
-            var teams = eventsService.getTeams(events[i].name);
             competition.events.push({
                 date: events[i].date,
                 name: events[i].name,
-                team1: teams === null ? null : teams[0],
-                team2: teams === null ? null : teams[1],
+                teams: teamsService.getTeams(events[i].name),
                 channels: events[i].channels
             });
 
@@ -73,13 +72,7 @@ eventsService.createChannels = function (str) {
     return result;
 }
 
-eventsService.getTeams = function (name) {
-    var teams = name.split("-");
-    if (teams.length == 0) {
-        return null;
-    }
-    return teams;
-}
+
 
 eventsService.getCompetition = function (avKey) {
     for(var i=0; i<competitions.length; i++) {
