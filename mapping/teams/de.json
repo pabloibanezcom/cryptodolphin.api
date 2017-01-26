@@ -1,0 +1,62 @@
+[
+    {
+        "avKey": "BAYERN MUNICH",
+        "key": "bayern",
+        "name": "Bayern Munich",
+        "country": "de"
+    },
+    {
+        "avKey": "WERDER BREMEN",
+        "key": "werder_bremen",
+        "name": "Werder Bremen",
+        "country": "de"
+    },
+    {
+        "avKey": "MONCHENGLADBACH",
+        "key": "monchengladbach",
+        "name": "Monchengladbach",
+        "country": "de"
+    },
+    {
+        "avKey": "BAYER LEVERKUSEN",
+        "key": "bayer_leverkusen",
+        "name": "Bayer Leverkusen",
+        "country": "de"
+    },
+    {
+        "avKey": "MAINZ 05",
+        "key": "mainz",
+        "name": "Mainz 05",
+        "country": "de"
+    },
+    {
+        "avKey": "BORUSSIA DORTMUND",
+        "key": "dortmund",
+        "name": "Borussia Dortmund",
+        "country": "de"
+    },
+    {
+        "avKey": "SCHALKE 04",
+        "key": "schalke",
+        "name": "Schalke 04",
+        "country": "de"
+    },
+    {
+        "avKey": "EINTRACHT FRANKFURT",
+        "key": "frankfurt",
+        "name": "Eintracht Frankfurt",
+        "country": "de"
+    },
+    {
+        "avKey": "FREIBURG",
+        "key": "freiburg",
+        "name": "Freiburg",
+        "country": "de"
+    },
+    {
+        "avKey": "HERTHA BERLIN",
+        "key": "hertha_berlin",
+        "name": "Hertha Berlin",
+        "country": "de"
+    }
+]

@@ -14,8 +14,8 @@ teamsService.getTeams = function (eventName) {
         return null;
     }
     return {
-        team1: teamsService.getTeam(teams[0]),
-        team2: teamsService.getTeam(teams[1])
+        team1: teamsService.getTeam(teams[0].trim()),
+        team2: teamsService.getTeam(teams[1].trim())
     };
 }
 

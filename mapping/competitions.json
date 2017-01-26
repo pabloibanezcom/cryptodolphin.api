@@ -28,11 +28,25 @@
         "order": 4
     },
     {
+        "key": "en_cup_2",
+        "avKey": "Efl cup",
+        "country": "en",
+        "name": "EFL Cup",
+        "order": 5
+    },
+    {
         "key": "es_cup",
         "avKey": "Spanish cup",
         "country": "es",
         "name": "Copa del Rey",
         "order": 5
+    },
+    {
+        "key": "de_1",
+        "avKey": "Bundesliga",
+        "country": "de",
+        "name": "Bundesliga",
+        "order": 9
     },
     {
         "key": "it_1",
@@ -56,9 +70,23 @@
         "order": 12
     },
     {
+        "key": "nl_1",
+        "avKey": "Eredivisie",
+        "country": "nl",
+        "name": "Eredivisie",
+        "order": 13
+    },
+    {
+        "key": "nl_cup",
+        "avKey": "Dutch cup",
+        "country": "nl",
+        "name": "KNVB Beker",
+        "order": 13
+    },
+    {
         "key": "nba",
         "avKey": "Usa nba",
-        "country": "usa",
+        "country": "us",
         "name": "NBA",
         "order": 1
     },
@@ -72,7 +100,7 @@
     {
         "key": "nfl",
         "avKey": "Usa nfl",
-        "country": "usa",
+        "country": "us",
         "name": "NFL",
         "order": 1
     }

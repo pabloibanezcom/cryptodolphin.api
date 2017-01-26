@@ -14,6 +14,10 @@ util.createDate = function(day, time) {
     return dayObj.toDate();
 }
 
+util.createDayLabel = function(date) {
+    return moment(date).format('dddd Do MMMM');
+}
+
 util.replaceHtmlSpace = function(value) {
     return value.replace("\n\t\t", " ");
 }

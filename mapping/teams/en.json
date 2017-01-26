@@ -10,5 +10,113 @@
         "key": "chelsea",
         "name": "Chelsea",
         "country": "en"
+    },
+    {
+        "avKey": "LEICESTER CITY",
+        "key": "leicester",
+        "name": "Leicester",
+        "country": "en"
+    },
+    {
+        "avKey": "LIVERPOOL",
+        "key": "liverpool",
+        "name": "Liverpool",
+        "country": "en"
+    },
+    {
+        "avKey": "SOUTHAMPTON",
+        "key": "southampton",
+        "name": "Southampton",
+        "country": "en"
+    },
+    {
+        "avKey": "WATFORD",
+        "key": "watford",
+        "name": "Watford",
+        "country": "en"
+    },
+    {
+        "avKey": "MANCHESTER UNITED",
+        "key": "manchester_utd",
+        "name": "Manchester United",
+        "country": "en"
+    },
+    {
+        "avKey": "MANCHESTER CITY",
+        "key": "manchester_city",
+        "name": "Manchester City",
+        "country": "en"
+    },
+    {
+        "avKey": "TOTTENHAM",
+        "key": "tottenham",
+        "name": "Tottenham",
+        "country": "en"
+    },
+    {
+        "avKey": "WEST HAM",
+        "key": "west_ham",
+        "name": "West Ham",
+        "country": "en"
+    },
+    {
+        "avKey": "EVERTON",
+        "key": "everton",
+        "name": "Everton",
+        "country": "en"
+    },
+    {
+        "avKey": "BURNLEY",
+        "key": "burnley",
+        "name": "Burnley",
+        "country": "en"
+    },
+    {
+        "avKey": "HULL CITY",
+        "key": "hull",
+        "name": "Hull City",
+        "country": "en"
+    },
+    {
+        "avKey": "CRYSTAL PALACE",
+        "key": "crystal_palace",
+        "name": "Crystal Palace",
+        "country": "en"
+    },
+    {
+        "avKey": "STOKE CITY",
+        "key": "stoke",
+        "name": "Stoke City",
+        "country": "en"
+    },
+    {
+        "avKey": "SWANSEA",
+        "key": "swansea",
+        "name": "Swansea",
+        "country": "en"
+    },
+    {
+        "avKey": "SUNDERLAND",
+        "key": "sunderland",
+        "name": "Sunderland",
+        "country": "en"
+    },
+    {
+        "avKey": "SOUTHAMPTON",
+        "key": "southampton",
+        "name": "southampton",
+        "country": "en"
+    },
+    {
+        "avKey": "MIDDLESBROUGH",
+        "key": "middlesbrough",
+        "name": "middlesbrough",
+        "country": "en"
+    },
+    {
+        "avKey": "BOURNEMOUTH",
+        "key": "bournemouth",
+        "name": "Bournemouth",
+        "country": "en"
     }
 ]

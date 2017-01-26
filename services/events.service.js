@@ -1,4 +1,5 @@
 var _ = require('lodash');
+var util = require('./util');
 var teamsService = require('./teams.service');
 var competitions = require('../mapping/competitions');
 
@@ -37,12 +38,15 @@ eventsService.order = function (events) {
                 sport.competitions.push(competition);
             }
             //create event
-            competition.events.push({
+            eventsService.addEvent({
                 date: events[i].date,
                 name: events[i].name,
                 teams: teamsService.getTeams(events[i].name),
                 channels: events[i].channels
-            });
+            },
+                util.createDayLabel(events[i].date),
+                competition
+            );
 
             //increment sport events counter
             sport.events++;
@@ -72,12 +76,11 @@ eventsService.createChannels = function (str) {
     return result;
 }
 
-
-
 eventsService.getCompetition = function (avKey) {
-    for(var i=0; i<competitions.length; i++) {
-        if(competitions[i].avKey === avKey) {
-            return competitions[i];
+    for (var i = 0; i < competitions.length; i++) {
+        if (competitions[i].avKey === avKey) {
+            return _.assign({}, competitions[i], { "days": [] });
+            //return competitions[i];
         }
     }
     return {
@@ -85,12 +88,21 @@ eventsService.getCompetition = function (avKey) {
         "avKey": avKey,
         "name": avKey,
         "country": null,
-        "order": 9999
+        "order": 9999,
+        "days": []
     };
 }
 
 eventsService.get2letterLanguage = function (lan) {
     return lan === "SPA" ? "es" : "en";
+}
+
+eventsService.addEvent = function (event, day, competition) {
+    var originalDay = _.find(competition.days, { 'label': day });
+    if (!originalDay) {
+        competition.days.push({"label": day, events: []});
+    }
+    _.find(competition.days, { 'label': day })['events'].push(event);
 }
 
 module.exports = eventsService;
