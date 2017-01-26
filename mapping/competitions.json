@@ -3,72 +3,77 @@
         "key": "en_1",
         "avKey": "Premier league",
         "country": "en",
-        "en": "Premier league",
-        "es": "Premier league",
+        "name": "Premier league",
         "order": 1
     },
     {
         "key": "es_1",
         "avKey": "Spanish la liga",
         "country": "es",
-        "en": "La Liga",
-        "es": "La Liga",
+        "name": "La Liga",
         "order": 2
     },
     {
         "key": "es_2",
         "avKey": "Spanish la liga 2",
         "country": "es",
-        "en": "La Liga 123",
-        "es": "La Liga 123",
+        "name": "La Liga 123",
         "order": 3
     },
     {
-        "key": "pt_1",
-        "avKey": "Portugal liga",
-        "country": "pt",
-        "en": "Liga Sagres",
-        "es": "Liga Sagres",
-        "order": 7
+        "key": "en_cup_1",
+        "avKey": "Fa cup",
+        "country": "en",
+        "name": "The Emirates FA Cup",
+        "order": 4
+    },
+    {
+        "key": "es_cup",
+        "avKey": "Spanish cup",
+        "country": "es",
+        "name": "Copa del Rey",
+        "order": 5
     },
     {
         "key": "it_1",
-        "avKey": "Italia serie a",
+        "avKey": "Serie a",
         "country": "it",
-        "en": "Serie A",
-        "es": "Serie A",
-        "order": 5
+        "name": "Serie A",
+        "order": 10
     },
     {
         "key": "fr_1",
         "avKey": "French ligue 1",
         "country": "fr",
-        "en": "Ligue 1",
-        "es": "Ligue 1",
-        "order": 6
+        "name": "Ligue 1",
+        "order": 11
+    },
+    {
+        "key": "pt_1",
+        "avKey": "Portugal liga",
+        "country": "pt",
+        "name": "Liga Sagres",
+        "order": 12
     },
     {
         "key": "nba",
         "avKey": "Usa nba",
         "country": "usa",
-        "en": "NBA",
-        "es": "NBA",
+        "name": "NBA",
         "order": 1
     },
     {
         "key": "acb",
         "avKey": "Spain acb",
         "country": "es",
-        "en": "ACB",
-        "es": "ACB",
+        "name": "ACB",
         "order": 2
     },
     {
         "key": "nfl",
         "avKey": "Usa nfl",
         "country": "usa",
-        "en": "NFL",
-        "es": "NFL",
+        "name": "NFL",
         "order": 1
     }
 ]

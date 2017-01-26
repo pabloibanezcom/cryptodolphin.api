@@ -101,7 +101,7 @@
         "name": "Sporting Gijon",
         "country": "es"
     },
-     {
+    {
         "avKey": "REAL SOCIEDAD",
         "key": "real_sociedad",
         "name": "Real Sociedad",
@@ -117,6 +117,102 @@
         "avKey": "VALENCIA",
         "key": "valencia",
         "name": "Valencia",
+        "country": "es"
+    },
+    {
+        "avKey": "ZARAGOZA",
+        "key": "zaragoza",
+        "name": "Zaragoza",
+        "country": "es"
+    },
+    {
+        "avKey": "ELCHE",
+        "key": "elche",
+        "name": "Elche",
+        "country": "es"
+    },
+    {
+        "avKey": "GIRONA",
+        "key": "girona",
+        "name": "Girona",
+        "country": "es"
+    },
+    {
+        "avKey": "LUGO",
+        "key": "lugo",
+        "name": "Lugo",
+        "country": "es"
+    },
+    {
+        "avKey": "SEVILLA ATLETICO",
+        "key": "sevilla_atletico",
+        "name": "Sevilla Atletico",
+        "country": "es"
+    },
+    {
+        "avKey": "TENERIFE",
+        "key": "tenerife",
+        "name": "Tenerife",
+        "country": "es"
+    },
+    {
+        "avKey": "ALCORCON",
+        "key": "alcorcon",
+        "name": "Alcorcon",
+        "country": "es"
+    },
+    {
+        "avKey": "LEVANTE",
+        "key": "levante",
+        "name": "Levante",
+        "country": "es"
+    },
+    {
+        "avKey": "VALLADOLID",
+        "key": "valladolid",
+        "name": "Valladolid",
+        "country": "es"
+    },
+    {
+        "avKey": "RAYO VALLECANO",
+        "key": "rayo_vallecano",
+        "name": "Rayo Vallecano",
+        "country": "es"
+    },
+    {
+        "avKey": "NUMANCIA",
+        "key": "numancia",
+        "name": "Numancia",
+        "country": "es"
+    },
+    {
+        "avKey": "GETAFE",
+        "key": "getafe",
+        "name": "Getafe",
+        "country": "es"
+    },
+    {
+        "avKey": "CORDOBA",
+        "key": "cordoba",
+        "name": "Cordoba",
+        "country": "es"
+    },
+    {
+        "avKey": "UCAM MURCIA",
+        "key": "ucam_murcia",
+        "name": "UCAM Murcia",
+        "country": "es"
+    },
+    {
+        "avKey": "MALLORCA",
+        "key": "mallorca",
+        "name": "Mallorca",
+        "country": "es"
+    },
+    {
+        "avKey": "CADIZ",
+        "key": "cadiz",
+        "name": "Cadiz",
         "country": "es"
     }
 ]

@@ -76,16 +76,16 @@ eventsService.createChannels = function (str) {
 
 eventsService.getCompetition = function (avKey) {
     for(var i=0; i<competitions.length; i++) {
-        if(competitions[i].avKey == avKey) {
+        if(competitions[i].avKey === avKey) {
             return competitions[i];
         }
     }
     return {
+        "key": null,
         "avKey": avKey,
         "name": avKey,
         "country": null,
-        "en": avKey,
-        "es": avKey
+        "order": 9999
     };
 }
 
