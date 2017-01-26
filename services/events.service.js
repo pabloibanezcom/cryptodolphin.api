@@ -82,6 +82,7 @@ eventsService.getCompetition = function (avKey) {
     }
     return {
         "avKey": avKey,
+        "name": avKey,
         "country": null,
         "en": avKey,
         "es": avKey

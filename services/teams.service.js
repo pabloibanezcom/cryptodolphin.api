@@ -5,14 +5,17 @@ var teamsService = {};
 
 teamsService.getTeam = function (teamAVKey) {
     var result =_.find(teams, function (t) { return t.avKey === teamAVKey });
-    return result;
+    return result ? result : { avKey: teamAVKey, key: null, name: teamAVKey, country: null };
 };
 
 teamsService.getTeams = function (eventName) {
     var teams = eventName.split("-");
+    if(teams.length != 2) {
+        return null;
+    }
     return {
-        team1: teams[0] ? teamsService.getTeam(teams[0]) : null,
-        team2: teams[1] ? teamsService.getTeam(teams[1]) : null
+        team1: teamsService.getTeam(teams[0]),
+        team2: teamsService.getTeam(teams[1])
     };
 }
 
