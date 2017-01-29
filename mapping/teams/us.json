@@ -1,0 +1,38 @@
+[
+    {
+        "avKey": "NEW YORK KNICKS",
+        "key": "knicks",
+        "name": "New York Knicks",
+        "country": "us"
+    },
+    {
+        "avKey": "ATLANTA HAWKS",
+        "key": "hawks",
+        "name": "Atlanta Hawks",
+        "country": "us"
+    },
+    {
+        "avKey": "OKLAHOMA CITY THUNDER",
+        "key": "thunder",
+        "name": "Oklahoma City Thunder",
+        "country": "us"
+    },
+    {
+        "avKey": "CLEVELAND CAVALIERS",
+        "key": "cavaliers",
+        "name": "Cleveland Cavaliers",
+        "country": "us"
+    },
+    {
+        "avKey": "GOLDEN STATE WARRIORS",
+        "key": "warriors",
+        "name": "Golden State Warriors",
+        "country": "us"
+    },
+    {
+        "avKey": "HOUSTON ROCKETS",
+        "key": "rockets",
+        "name": "Houston Rockets",
+        "country": "us"
+    }
+]

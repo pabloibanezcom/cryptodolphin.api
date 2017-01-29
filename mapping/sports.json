@@ -1,22 +1,26 @@
 [
     {
+        "key": "football",
         "avKey": "Soccer",
-        "en": "Soccer",
-        "es": "Futbol"
+        "name": "Football",
+        "order": 1
     },
     {
+        "key": "basketball",
         "avKey": "Basketball",
-        "en": "Basketball",
-        "es": "Baloncesto"
+        "name": "Basketball",
+        "order": 2
     },
     {
+        "key": "american_football",
         "avKey": "Football",
-        "en": "Football",
-        "es": "Futbol Americano"
+        "name": "American Football",
+        "order": 3
     },
     {
+        "key": "tennis",
         "avKey": "Tennis",
-        "en": "Tennis",
-        "es": "Tenis"
+        "name": "Tennis",
+        "order": 4
     }
 ]

@@ -1,0 +1,128 @@
+[
+    {
+        "avKey": "LAZIO",
+        "key": "lazio",
+        "name": "Lazio",
+        "country": "it"
+    },
+    {
+        "avKey": "CHIEVO VERONA",
+        "key": "chievo",
+        "name": "Chievo Verona",
+        "country": "it"
+    },
+    {
+        "avKey": "TORINO",
+        "key": "torino",
+        "name": "Torino",
+        "country": "it"
+    },
+    {
+        "avKey": "ATALANTA",
+        "key": "atalanta",
+        "name": "Atalanta",
+        "country": "it"
+    },
+    {
+        "avKey": "UDINESE",
+        "key": "udinese",
+        "name": "Udinese",
+        "country": "it"
+    },
+    {
+        "avKey": "AC MILAN",
+        "key": "milan",
+        "name": "AC Milan",
+        "country": "it"
+    },
+    {
+        "avKey": "SASSUOLO",
+        "key": "sassuolo",
+        "name": "Sassuolo",
+        "country": "it"
+    },
+    {
+        "avKey": "JUVENTUS",
+        "key": "juventus",
+        "name": "Juventus",
+        "country": "it"
+    },
+    {
+        "avKey": "NAPOLI",
+        "key": "napoli",
+        "name": "Napoli",
+        "country": "it"
+    },
+    {
+        "avKey": "PALERMO",
+        "key": "palermo",
+        "name": "Palermo",
+        "country": "it"
+    },
+    {
+        "avKey": "INTER MILAN",
+        "key": "inter",
+        "name": "Inter Milan",
+        "country": "it"
+    },
+    {
+        "avKey": "PESCARA",
+        "key": "pescara",
+        "name": "Pescara",
+        "country": "it"
+    },
+    {
+        "avKey": "BOLONIA",
+        "key": "bologna",
+        "name": "Bolonia",
+        "country": "it"
+    },
+    {
+        "avKey": "CAGLIARI",
+        "key": "cagliari",
+        "name": "Cagliari",
+        "country": "it"
+    },
+    {
+        "avKey": "CROTONE",
+        "key": "crotone",
+        "name": "Crotone",
+        "country": "it"
+    },
+    {
+        "avKey": "EMPOLI",
+        "key": "empoli",
+        "name": "Empoli",
+        "country": "it"
+    },
+    {
+        "avKey": "FIORENTINA",
+        "key": "fiorentina",
+        "name": "Fiorentina",
+        "country": "it"
+    },
+    {
+        "avKey": "GENOA",
+        "key": "genoa",
+        "name": "Genoa",
+        "country": "it"
+    },
+    {
+        "avKey": "ROMA",
+        "key": "genoa",
+        "name": "Roma",
+        "country": "it"
+    },
+    {
+        "avKey": "SAMPDORIA",
+        "key": "sampdoria",
+        "name": "Sampdoria",
+        "country": "it"
+    },
+    {
+        "avKey": "UDINESE",
+        "key": "udinese",
+        "name": "Udinese",
+        "country": "it"
+    }
+]
