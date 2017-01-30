@@ -1,25 +1,33 @@
 [
     {
         "key": "football",
-        "avKey": "Soccer",
+        "avKeys": [
+            "Soccer"
+        ],
         "name": "Football",
         "order": 1
     },
     {
         "key": "basketball",
-        "avKey": "Basketball",
+        "avKeys": [
+            "Basketball"
+        ],
         "name": "Basketball",
         "order": 2
     },
     {
         "key": "american_football",
-        "avKey": "Football",
+        "avKeys": [
+            "Football"
+        ],
         "name": "American Football",
         "order": 3
     },
     {
         "key": "tennis",
-        "avKey": "Tennis",
+        "avKeys": [
+            "Tennis"
+        ],
         "name": "Tennis",
         "order": 4
     }

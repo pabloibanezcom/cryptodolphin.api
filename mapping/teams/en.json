@@ -1,120 +1,169 @@
 [
     {
-        "avKey": "ARSENAL",
+        "avKeys": [
+            "ARSENAL"
+        ],
         "key": "arsenal",
         "name": "Arsenal",
         "country": "en"
     },
     {
-        "avKey": "CHELSEA",
+        "avKeys": [
+            "CHELSEA"
+        ],
         "key": "chelsea",
         "name": "Chelsea",
         "country": "en"
     },
     {
-        "avKey": "LEICESTER CITY",
+        "avKeys": [
+            "LEICESTER",
+            "LEICESTER CITY"
+        ],
         "key": "leicester",
         "name": "Leicester",
         "country": "en"
     },
     {
-        "avKey": "LIVERPOOL",
+        "avKeys": [
+            "LIVERPOOL"
+        ],
         "key": "liverpool",
         "name": "Liverpool",
         "country": "en"
     },
     {
-        "avKey": "SOUTHAMPTON",
+        "avKeys": [
+            "SOUTHAMPTON"
+        ],
         "key": "southampton",
         "name": "Southampton",
         "country": "en"
     },
     {
-        "avKey": "WATFORD",
+        "avKeys": [
+            "WATFORD"
+        ],
         "key": "watford",
         "name": "Watford",
         "country": "en"
     },
     {
-        "avKey": "MANCHESTER UNITED",
+        "avKeys": [
+            "MANCHESTER UNITED",
+            "MANCHESTER UTD"
+        ],
         "key": "manchester_utd",
         "name": "Manchester United",
         "country": "en"
     },
     {
-        "avKey": "MANCHESTER CITY",
+        "avKeys": [
+            "MANCHESTER CITY"
+        ],
         "key": "manchester_city",
         "name": "Manchester City",
         "country": "en"
     },
     {
-        "avKey": "TOTTENHAM",
+        "avKeys": [
+            "TOTTENHAM",
+            "TOTTENHAM HOTSPUR"
+        ],
         "key": "tottenham",
         "name": "Tottenham",
         "country": "en"
     },
     {
-        "avKey": "WEST HAM",
+        "avKeys": [
+            "WEST HAM",
+            "WEST HAM UNITED",
+            "WEST HAM UTD"
+        ],
         "key": "west_ham",
         "name": "West Ham",
         "country": "en"
     },
     {
-        "avKey": "EVERTON",
+        "avKeys": [
+            "EVERTON"
+        ],
         "key": "everton",
         "name": "Everton",
         "country": "en"
     },
     {
-        "avKey": "BURNLEY",
+        "avKeys": [
+            "BURNLEY"
+        ],
         "key": "burnley",
         "name": "Burnley",
         "country": "en"
     },
     {
-        "avKey": "HULL CITY",
+        "avKeys": [
+            "HULL",
+            "HULL CITY"
+        ],
         "key": "hull",
         "name": "Hull City",
         "country": "en"
     },
     {
-        "avKey": "CRYSTAL PALACE",
+        "avKeys": [
+            "CRYSTAL PALACE"
+        ],
         "key": "crystal_palace",
         "name": "Crystal Palace",
         "country": "en"
     },
     {
-        "avKey": "STOKE CITY",
+        "avKeys": [
+            "STOKE",
+            "STOKE CITY"
+        ],
         "key": "stoke",
         "name": "Stoke City",
         "country": "en"
     },
     {
-        "avKey": "SWANSEA",
+        "avKeys": [
+            "SWANSEA",
+            "SWANSEA CITY"
+        ],
         "key": "swansea",
         "name": "Swansea",
         "country": "en"
     },
     {
-        "avKey": "SUNDERLAND",
+        "avKeys": [
+            "SUNDERLAND"
+        ],
         "key": "sunderland",
         "name": "Sunderland",
         "country": "en"
     },
     {
-        "avKey": "SOUTHAMPTON",
+        "avKeys": [
+            "SOUTHAMPTON"
+        ],
         "key": "southampton",
         "name": "southampton",
         "country": "en"
     },
     {
-        "avKey": "MIDDLESBROUGH",
+        "avKeys": [
+            "MIDDLESBROUGH"
+        ],
         "key": "middlesbrough",
         "name": "middlesbrough",
         "country": "en"
     },
     {
-        "avKey": "BOURNEMOUTH",
+        "avKeys": [
+            "BOURNEMOUTH",
+            "AFC BOURNEMOUTH"
+        ],
         "key": "bournemouth",
         "name": "Bournemouth",
         "country": "en"

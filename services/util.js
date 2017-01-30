@@ -27,4 +27,8 @@ util.readFromTr = function(child, capitalize) {
     return capitalize ? this.capitalize(result) : result;
 }
 
+util.get2letterLanguage = function (lan) {
+    return lan === "SPA" ? "es" : "en";
+}
+
 module.exports = util;

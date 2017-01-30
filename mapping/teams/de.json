@@ -1,62 +1,100 @@
 [
     {
-        "avKey": "BAYERN MUNICH",
+        "avKeys": [
+            "BAYERN MUNICH"
+        ],
         "key": "bayern",
         "name": "Bayern Munich",
         "country": "de"
     },
     {
-        "avKey": "WERDER BREMEN",
+        "avKeys": [
+            "WERDER BREMEN"
+        ],
         "key": "werder_bremen",
         "name": "Werder Bremen",
         "country": "de"
     },
     {
-        "avKey": "MONCHENGLADBACH",
+        "avKeys": [
+            "MONCHENGLADBACH"
+        ],
         "key": "monchengladbach",
         "name": "Monchengladbach",
         "country": "de"
     },
     {
-        "avKey": "BAYER LEVERKUSEN",
+        "avKeys": [
+            "BAYER LEVERKUSEN"
+        ],
         "key": "bayer_leverkusen",
         "name": "Bayer Leverkusen",
         "country": "de"
     },
     {
-        "avKey": "MAINZ 05",
+        "avKeys": [
+            "MAINZ 05"
+        ],
         "key": "mainz",
         "name": "Mainz 05",
         "country": "de"
     },
     {
-        "avKey": "BORUSSIA DORTMUND",
+        "avKeys": [
+            "BORUSSIA DORTMUND"
+        ],
         "key": "dortmund",
         "name": "Borussia Dortmund",
         "country": "de"
     },
     {
-        "avKey": "SCHALKE 04",
+        "avKeys": [
+            "SCHALKE 04"
+        ],
         "key": "schalke",
         "name": "Schalke 04",
         "country": "de"
     },
     {
-        "avKey": "EINTRACHT FRANKFURT",
+        "avKeys": [
+            "EINTRACHT FRANKFURT"
+        ],
         "key": "frankfurt",
         "name": "Eintracht Frankfurt",
         "country": "de"
     },
     {
-        "avKey": "FREIBURG",
+        "avKeys": [
+            "FREIBURG"
+        ],
         "key": "freiburg",
         "name": "Freiburg",
         "country": "de"
     },
     {
-        "avKey": "HERTHA BERLIN",
+        "avKeys": [
+            "HERTHA BERLIN"
+        ],
         "key": "hertha_berlin",
         "name": "Hertha Berlin",
+        "country": "de"
+    },
+    {
+        "avKeys": [
+            "HAMBURG",
+            "HAMBURGER"
+        ],
+        "key": "hamburg",
+        "name": "Hamburg",
+        "country": "de"
+    },
+    {
+        "avKeys": [
+            "LEIPZIG",
+            "RB LEIPZIG"
+        ],
+        "key": "leipzig",
+        "name": "RB Leipzig",
         "country": "de"
     }
 ]

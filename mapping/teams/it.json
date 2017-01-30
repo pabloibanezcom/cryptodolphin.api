@@ -1,126 +1,169 @@
 [
     {
-        "avKey": "LAZIO",
+        "avKeys": [
+            "LAZIO"
+        ],
         "key": "lazio",
         "name": "Lazio",
         "country": "it"
     },
     {
-        "avKey": "CHIEVO VERONA",
+        "avKeys": [
+            "CHIEVO VERONA"
+        ],
         "key": "chievo",
         "name": "Chievo Verona",
         "country": "it"
     },
     {
-        "avKey": "TORINO",
+        "avKeys": [
+            "TORINO"
+        ],
         "key": "torino",
         "name": "Torino",
         "country": "it"
     },
     {
-        "avKey": "ATALANTA",
+        "avKeys": [
+            "ATALANTA"
+        ],
         "key": "atalanta",
         "name": "Atalanta",
         "country": "it"
     },
     {
-        "avKey": "UDINESE",
+        "avKeys": [
+            "UDINESE"
+        ],
         "key": "udinese",
         "name": "Udinese",
         "country": "it"
     },
     {
-        "avKey": "AC MILAN",
+        "avKeys": [
+            "AC MILAN"
+        ],
         "key": "milan",
         "name": "AC Milan",
         "country": "it"
     },
     {
-        "avKey": "SASSUOLO",
+        "avKeys": [
+            "SASSUOLO"
+        ],
         "key": "sassuolo",
         "name": "Sassuolo",
         "country": "it"
     },
     {
-        "avKey": "JUVENTUS",
+        "avKeys": [
+            "JUVENTUS"
+        ],
         "key": "juventus",
         "name": "Juventus",
         "country": "it"
     },
     {
-        "avKey": "NAPOLI",
+        "avKeys": [
+            "NAPOLI"
+        ],
         "key": "napoli",
         "name": "Napoli",
         "country": "it"
     },
     {
-        "avKey": "PALERMO",
+        "avKeys": [
+            "PALERMO"
+        ],
         "key": "palermo",
         "name": "Palermo",
         "country": "it"
     },
     {
-        "avKey": "INTER MILAN",
+        "avKeys": [
+            "INTER MILAN"
+        ],
         "key": "inter",
         "name": "Inter Milan",
         "country": "it"
     },
     {
-        "avKey": "PESCARA",
+        "avKeys": [
+            "PESCARA"
+        ],
         "key": "pescara",
         "name": "Pescara",
         "country": "it"
     },
     {
-        "avKey": "BOLONIA",
+        "avKeys": [
+            "BOLONIA",
+            "BOLOGNA"
+        ],
         "key": "bologna",
         "name": "Bolonia",
         "country": "it"
     },
     {
-        "avKey": "CAGLIARI",
+        "avKeys": [
+            "CAGLIARI"
+        ],
         "key": "cagliari",
         "name": "Cagliari",
         "country": "it"
     },
     {
-        "avKey": "CROTONE",
+        "avKeys": [
+            "CROTONE"
+        ],
         "key": "crotone",
         "name": "Crotone",
         "country": "it"
     },
     {
-        "avKey": "EMPOLI",
+        "avKeys": [
+            "EMPOLI"
+        ],
         "key": "empoli",
         "name": "Empoli",
         "country": "it"
     },
     {
-        "avKey": "FIORENTINA",
+        "avKeys": [
+            "FIORENTINA"
+        ],
         "key": "fiorentina",
         "name": "Fiorentina",
         "country": "it"
     },
     {
-        "avKey": "GENOA",
+        "avKeys": [
+            "GENOA"
+        ],
         "key": "genoa",
         "name": "Genoa",
         "country": "it"
     },
     {
-        "avKey": "ROMA",
+        "avKeys": [
+            "ROMA"
+        ],
         "key": "genoa",
         "name": "Roma",
         "country": "it"
     },
     {
-        "avKey": "SAMPDORIA",
+        "avKeys": [
+            "SAMPDORIA"
+        ],
         "key": "sampdoria",
         "name": "Sampdoria",
         "country": "it"
     },
     {
-        "avKey": "UDINESE",
+        "avKeys": [
+            "UDINESE"
+        ],
         "key": "udinese",
         "name": "Udinese",
         "country": "it"

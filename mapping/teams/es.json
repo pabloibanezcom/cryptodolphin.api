@@ -1,218 +1,337 @@
 [
     {
-        "avKey": "REAL MADRID",
+        "avKeys": [
+            "REAL MADRID"
+        ],
         "key": "real_madrid",
         "name": "Real Madrid",
         "country": "es"
     },
     {
-        "avKey": "OSASUNA",
+        "avKeys": [
+            "OSASUNA"
+        ],
         "key": "osasuna",
         "name": "Osasuna",
         "country": "es"
     },
     {
-        "avKey": "MALAGA",
+        "avKeys": [
+            "MALAGA"
+        ],
         "key": "malaga",
         "name": "Malaga",
         "country": "es"
     },
     {
-        "avKey": "VILLARREAL",
+        "avKeys": [
+            "VILLARREAL"
+        ],
         "key": "villareal",
         "name": "Villareal",
         "country": "es"
     },
     {
-        "avKey": "GRANADA",
+        "avKeys": [
+            "GRANADA"
+        ],
         "key": "granada",
         "name": "Granada",
         "country": "es"
     },
     {
-        "avKey": "ALAVES",
+        "avKeys": [
+            "ALAVES",
+            "DEPORTIVO ALAVES"
+        ],
         "key": "alaves",
         "name": "Alaves",
         "country": "es"
     },
     {
-        "avKey": "ATLETICO DE MADRID",
+        "avKeys": [
+            "ATLETICO DE MADRID",
+            "ATLETICO MADRID"
+        ],
         "key": "atletico_madrid",
         "name": "Atletico de Madrid",
         "country": "es"
     },
     {
-        "avKey": "EIBAR",
+        "avKeys": [
+            "EIBAR"
+        ],
         "key": "eibar",
         "name": "Eibar",
         "country": "es"
     },
     {
-        "avKey": "DEPORTIVO",
+        "avKeys": [
+            "DEPORTIVO",
+            "DEPORTIVO LA CORUNA"
+        ],
         "key": "deportivo",
         "name": "Deportivo de la Coruña",
         "country": "es"
     },
     {
-        "avKey": "LEGANES",
+        "avKeys": [
+            "LEGANES"
+        ],
         "key": "leganes",
         "name": "Leganes",
         "country": "es"
     },
     {
-        "avKey": "CELTA",
+        "avKeys": [
+            "CELTA",
+            "CELTA DE VIGO",
+            "CELTA VIGO"
+        ],
         "key": "celta",
         "name": "Celta",
         "country": "es"
     },
     {
-        "avKey": "REAL BETIS",
+        "avKeys": [
+            "BETIS",
+            "REAL BETIS"
+        ],
         "key": "betis",
         "name": "Real Betis",
         "country": "es"
     },
     {
-        "avKey": "FC BARCELONA",
+        "avKeys": [
+            "BARCELONA",
+            "FC BARCELONA"
+        ],
         "key": "barcelona",
         "name": "FC Barcelona",
         "country": "es"
     },
     {
-        "avKey": "ESPANYOL",
+        "avKeys": [
+            "ESPANYOL"
+        ],
         "key": "espanyol",
         "name": "Espanyol",
         "country": "es"
     },
     {
-        "avKey": "SEVILLA FC",
+        "avKeys": [
+            "SEVILLA",
+            "SEVILLA FC"
+        ],
         "key": "sevilla",
         "name": "Sevilla FC",
         "country": "es"
     },
     {
-        "avKey": "ATHLETIC CLUB",
+        "avKeys": [
+            "ATHLETIC CLUB",
+            "ATHLETIC BILBAO",
+            "ATHLETIC DE BILBAO"
+        ],
         "key": "athletic",
         "name": "Athletic de Bilbao",
         "country": "es"
     },
     {
-        "avKey": "SPORTING GIJON",
+        "avKeys": [
+            "SPORTING GIJON",
+            "SPORTING DE GIJON"
+        ],
         "key": "sporting",
         "name": "Sporting Gijon",
         "country": "es"
     },
     {
-        "avKey": "REAL SOCIEDAD",
+        "avKeys": [
+            "REAL SOCIEDAD"
+        ],
         "key": "real_sociedad",
         "name": "Real Sociedad",
         "country": "es"
     },
     {
-        "avKey": "LAS PALMAS",
+        "avKeys": [
+            "LAS PALMAS"
+        ],
         "key": "las_palmas",
         "name": "Las Palmas",
         "country": "es"
     },
     {
-        "avKey": "VALENCIA",
+        "avKeys": [
+            "VALENCIA"
+        ],
         "key": "valencia",
         "name": "Valencia",
         "country": "es"
     },
     {
-        "avKey": "REAL ZARAGOZA",
+        "avKeys": [
+            "ZARAGOZA",
+            "REAL ZARAGOZA"
+        ],
         "key": "zaragoza",
-        "name": "Zaragoza",
+        "name": "Real Zaragoza",
         "country": "es"
     },
     {
-        "avKey": "ELCHE",
+        "avKeys": [
+            "ELCHE"
+        ],
         "key": "elche",
         "name": "Elche",
         "country": "es"
     },
     {
-        "avKey": "GIRONA",
+        "avKeys": [
+            "GIRONA"
+        ],
         "key": "girona",
         "name": "Girona",
         "country": "es"
     },
     {
-        "avKey": "LUGO",
+        "avKeys": [
+            "LUGO"
+        ],
         "key": "lugo",
         "name": "Lugo",
         "country": "es"
     },
     {
-        "avKey": "SEVILLA ATLETICO",
+        "avKeys": [
+            "SEVILLA ATLETICO"
+        ],
         "key": "sevilla_atletico",
         "name": "Sevilla Atletico",
         "country": "es"
     },
     {
-        "avKey": "TENERIFE",
+        "avKeys": [
+            "TENERIFE"
+        ],
         "key": "tenerife",
         "name": "Tenerife",
         "country": "es"
     },
     {
-        "avKey": "ALCORCON",
+        "avKeys": [
+            "ALCORCON"
+        ],
         "key": "alcorcon",
         "name": "Alcorcon",
         "country": "es"
     },
     {
-        "avKey": "LEVANTE",
+        "avKeys": [
+            "LEVANTE"
+        ],
         "key": "levante",
         "name": "Levante",
         "country": "es"
     },
     {
-        "avKey": "VALLADOLID",
+        "avKeys": [
+            "VALLADOLID"
+        ],
         "key": "valladolid",
         "name": "Valladolid",
         "country": "es"
     },
     {
-        "avKey": "RAYO VALLECANO",
+        "avKeys": [
+            "RAYO VALLECANO"
+        ],
         "key": "rayo_vallecano",
         "name": "Rayo Vallecano",
         "country": "es"
     },
     {
-        "avKey": "NUMANCIA",
+        "avKeys": [
+            "NUMANCIA"
+        ],
         "key": "numancia",
         "name": "Numancia",
         "country": "es"
     },
     {
-        "avKey": "GETAFE",
+        "avKeys": [
+            "GETAFE"
+        ],
         "key": "getafe",
         "name": "Getafe",
         "country": "es"
     },
     {
-        "avKey": "CORDOBA",
+        "avKeys": [
+            "CORDOBA"
+        ],
         "key": "cordoba",
         "name": "Cordoba",
         "country": "es"
     },
     {
-        "avKey": "UCAM MURCIA",
+        "avKeys": [
+            "UCAM MURCIA"
+        ],
         "key": "ucam_murcia",
         "name": "UCAM Murcia",
         "country": "es"
     },
     {
-        "avKey": "MALLORCA",
+        "avKeys": [
+            "MALLORCA",
+            "REAL MALLORCA"
+        ],
         "key": "mallorca",
         "name": "Mallorca",
         "country": "es"
     },
     {
-        "avKey": "CADIZ",
+        "avKeys": [
+            "CADIZ"
+        ],
         "key": "cadiz",
         "name": "Cadiz",
+        "country": "es"
+    },
+    {
+        "avKeys": [
+            "HUESCA",
+            "SD HUESCA"
+        ],
+        "key": "huesca",
+        "name": "Huesca",
+        "country": "es"
+    },
+    {
+        "avKeys": [
+            "OVIEDO",
+            "REAL OVIEDO"
+        ],
+        "key": "oviedo",
+        "name": "Real Oviedo",
+        "country": "es"
+    },
+    {
+        "avKeys": [
+            "ALMERIA"
+        ],
+        "key": "almeria",
+        "name": "Almeria",
+        "country": "es"
+    },
+    {
+        "avKeys": [
+            "REUS"
+        ],
+        "key": "reus",
+        "name": "Reus",
         "country": "es"
     }
 ]

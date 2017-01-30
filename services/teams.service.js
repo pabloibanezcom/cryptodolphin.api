@@ -4,13 +4,16 @@ const teams = require('../mapping/teams');
 var teamsService = {};
 
 teamsService.getTeam = function (teamAVKey) {
-    var result =_.find(teams, function (t) { return t.avKey === teamAVKey });
-    return result ? result : { avKey: teamAVKey, key: null, name: teamAVKey, country: null };
+    return teamsService.createTeam(_.find(teams, function (t) { return t.avKeys.indexOf(teamAVKey) > -1 }), teamAVKey);
 };
+
+teamsService.createTeam = function (team, avKey) {
+    return team ? { key: team.key, name: team.name, country: team.country } : { key: null, name: avKey, country: null };
+}
 
 teamsService.getTeams = function (eventName) {
     var teams = eventName.split("-");
-    if(teams.length != 2) {
+    if (teams.length != 2) {
         return null;
     }
     return {

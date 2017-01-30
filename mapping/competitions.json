@@ -1,105 +1,135 @@
 [
     {
         "key": "en_1",
-        "avKey": "Premier league",
+        "avKeys": [
+            "Premier league"
+        ],
         "country": "en",
         "name": "Premier league",
         "order": 1
     },
     {
         "key": "es_1",
-        "avKey": "Spanish la liga",
+        "avKeys": [
+            "Spanish la liga"
+        ],
         "country": "es",
         "name": "La Liga",
         "order": 2
     },
     {
         "key": "es_2",
-        "avKey": "Spanish la liga 2",
+        "avKeys": [
+            "Spanish la liga 2"
+        ],
         "country": "es",
         "name": "La Liga 123",
         "order": 3
     },
     {
         "key": "en_cup_1",
-        "avKey": "Fa cup",
+        "avKeys": [
+            "Fa cup"
+        ],
         "country": "en",
         "name": "The Emirates FA Cup",
         "order": 4
     },
     {
         "key": "en_cup_2",
-        "avKey": "Efl cup",
+        "avKeys": [
+            "Efl cup"
+        ],
         "country": "en",
         "name": "EFL Cup",
         "order": 5
     },
     {
         "key": "es_cup",
-        "avKey": "Spanish cup",
+        "avKeys": [
+            "Spanish cup"
+        ],
         "country": "es",
         "name": "Copa del Rey",
         "order": 5
     },
     {
         "key": "de_1",
-        "avKey": "Bundesliga",
+        "avKeys": [
+            "Bundesliga"
+        ],
         "country": "de",
         "name": "Bundesliga",
         "order": 9
     },
     {
         "key": "it_1",
-        "avKey": "Serie a",
+        "avKeys": [
+            "Serie a"
+        ],
         "country": "it",
         "name": "Serie A",
         "order": 10
     },
     {
         "key": "fr_1",
-        "avKey": "French ligue 1",
+        "avKeys": [
+            "French ligue 1"
+        ],
         "country": "fr",
         "name": "Ligue 1",
         "order": 11
     },
     {
         "key": "pt_1",
-        "avKey": "Portugal liga",
+        "avKeys": [
+            "Portugal liga"
+        ],
         "country": "pt",
         "name": "Liga Sagres",
         "order": 12
     },
     {
         "key": "nl_1",
-        "avKey": "Eredivisie",
+        "avKeys": [
+            "Eredivisie"
+        ],
         "country": "nl",
         "name": "Eredivisie",
         "order": 13
     },
     {
         "key": "nl_cup",
-        "avKey": "Dutch cup",
+        "avKeys": [
+            "Dutch cup"
+        ],
         "country": "nl",
         "name": "KNVB Beker",
         "order": 13
     },
     {
         "key": "nba",
-        "avKey": "Usa nba",
+        "avKeys": [
+            "Usa nba"
+        ],
         "country": "us",
         "name": "NBA",
         "order": 1
     },
     {
         "key": "acb",
-        "avKey": "Spain acb",
+        "avKeys": [
+            "Spain acb"
+        ],
         "country": "es",
         "name": "ACB",
         "order": 2
     },
     {
         "key": "nfl",
-        "avKey": "Usa nfl",
+        "avKeys": [
+            "Usa nfl"
+        ],
         "country": "us",
         "name": "NFL",
         "order": 1
