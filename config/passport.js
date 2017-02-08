@@ -34,13 +34,15 @@ module.exports = function (passport) {
 
             console.log('USER: ', user);
 
-            User.find({ facebookId: user.id }, function (err, users) {
+            //User.find({ facebookId: user.id }, function (err, users) {
+            User.find({}, function (err, users) {
+
                 console.log('USERS: ', users);
                 console.log('ERROR: ', err);
-                if(users.length > 0) {
+                if (users.length > 0) {
                     return done(null, users[0]);
-                } 
-                return done(null, false, {message: 'User not allowed'});
+                }
+                return done(null, false, { message: 'User not allowed' });
             });
         }
     ));
