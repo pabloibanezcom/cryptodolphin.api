@@ -43,7 +43,7 @@ module.exports = function (passport) {
                         return done(null, user);
                     }
                 });
-                return done(null, false, { message: 'User not allowed' });
+                //return done(null, false, { message: 'User not allowed' });
             });
 
             // User.find({ facebookId: user.id }, function (err, users) {
