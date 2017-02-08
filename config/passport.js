@@ -33,17 +33,18 @@ module.exports = function (passport) {
             console.log('FB_USER', fbuser);
 
             User.find({}, function (err, users) {
-                var isAuthorized = false;
+                var authorizedUser = false;
                 users.forEach(function (user) {
                     if (user._doc.facebookId == fbuser.id) {
-                        isAuthorized = true;
+                        authorizedUser = user;
                     }
                 });
-                if (isAuthorized) {
-                    return done(null, user);
-                } else {
-                    return done(null, false, { message: 'User not allowed' });
-                }
+                return done(null, authorizedUser);
+                // if (isAuthorized) {
+                //     return done(null, user);
+                // } else {
+                //     return done(null, false, { message: 'User not allowed' });
+                // }
             });
 
             // User.find({ facebookId: fbuser.id }, function (err, users) {
