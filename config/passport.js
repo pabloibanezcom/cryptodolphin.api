@@ -30,6 +30,8 @@ module.exports = function (passport) {
                 'token': accessToken
             }
 
+            console.log('FB_USER', user);
+
             User.find({}, function (err, users) {
                 console.log('USERS_ALL: ', users);
             });
