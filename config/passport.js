@@ -23,19 +23,23 @@ module.exports = function (passport) {
     },
         function (accessToken, refreshToken, profile, done) {
 
-            var user = {
+            var fbuser = {
                 'email': profile.emails[0].value,
                 'name': profile.name.givenName + ' ' + profile.name.familyName,
                 'id': profile.id + '',
                 'token': accessToken
             }
 
-            console.log('FB_USER', user);
+            console.log('FB_USER', fbuser);
 
             User.find({}, function (err, users) {
                 console.log('USERS_ALL: ', users);
                 users.forEach(function (user) {
-                    if (user.facebookId == user.id) {
+                    console.log('==========');
+                    console.log(user.facebookId);
+                    console.log(fbuser.id);
+                    console.log('==========');
+                    if (user.facebookId == fbuser.id) {
                         return done(null, user);
                     }
                 });
