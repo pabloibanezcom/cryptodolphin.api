@@ -30,5 +30,21 @@
         ],
         "name": "Tennis",
         "order": 4
+    },
+    {
+        "key": "moto_gp",
+        "avKeys": [
+            "MOTOGP"
+        ],
+        "name": "MotoGP",
+        "order": 5
+    },
+    {
+        "key": "rugby",
+        "avKeys": [
+            "RUGBY"
+        ],
+        "name": "Rugby",
+        "order": 6
     }
 ]

@@ -146,9 +146,10 @@
     },
     {
         "avKeys": [
-            "ROMA"
+            "ROMA",
+            "AS ROMA"
         ],
-        "key": "genoa",
+        "key": "roma",
         "name": "Roma",
         "country": "it"
     },

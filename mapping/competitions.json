@@ -72,22 +72,42 @@
         "order": 10
     },
     {
+        "key": "it_cup",
+        "avKeys": [
+            "Italia coppa"
+        ],
+        "country": "it",
+        "name": "Coppa Italia",
+        "order": 11
+    },
+    {
         "key": "fr_1",
         "avKeys": [
-            "French ligue 1"
+            "French ligue 1",
+            "Frenche ligue 1"
         ],
         "country": "fr",
         "name": "Ligue 1",
-        "order": 11
+        "order": 12
+    },
+    {
+        "key": "fr_cup_1",
+        "avKeys": [
+            "French cup"
+        ],
+        "country": "fr",
+        "name": "Coupe de France",
+        "order": 13
     },
     {
         "key": "pt_1",
         "avKeys": [
-            "Portugal liga"
+            "Portugal liga",
+            "Portugal league" 
         ],
         "country": "pt",
-        "name": "Liga Sagres",
-        "order": 12
+        "name": "Liga NOS",
+        "order": 14
     },
     {
         "key": "nl_1",
@@ -96,7 +116,7 @@
         ],
         "country": "nl",
         "name": "Eredivisie",
-        "order": 13
+        "order": 15
     },
     {
         "key": "nl_cup",
@@ -105,7 +125,16 @@
         ],
         "country": "nl",
         "name": "KNVB Beker",
-        "order": 13
+        "order": 16
+    },
+    {
+        "key": "libertadores",
+        "avKeys": [
+            "Copa libertadores"
+        ],
+        "country": "",
+        "name": "Copa Libertadores",
+        "order": 25
     },
     {
         "key": "nba",
