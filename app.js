@@ -13,6 +13,7 @@ var session = require('express-session');
 require('dotenv').load();
 
 // configuration ===============================================================
+console.log(process.env.MONGODB_URI);
 mongoose.connect(process.env.MONGODB_URI); // connect to our database
 
 require('./config/passport')(passport); // pass passport for configuration
