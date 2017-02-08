@@ -7,8 +7,8 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var passport = require('passport');
-var flash    = require('connect-flash');
-var session      = require('express-session');
+var flash = require('connect-flash');
+var session = require('express-session');
 
 require('dotenv').load();
 
@@ -50,16 +50,15 @@ require('./app/routes.js')(app, passport); // load our routes and pass in our ap
 //   next(err);
 // });
 
-// // error handler
-// app.use(function(err, req, res, next) {
-//   // set locals, only providing error in development
-//   res.locals.message = err.message;
-//   res.locals.error = req.app.get('env') === 'development' ? err : {};
-//   res.cookie('beget', 'begetok', { maxAge: 900000, httpOnly: true });
-
-//   // render the error page
-//   res.status(err.status || 500);
-//   res.render('error');
-// });
+// error handler
+app.use(function (err, req, res, next) {
+    // set locals, only providing error in development
+    res.locals.message = err.message;
+    //   res.locals.error = req.app.get('env') === 'development' ? err : {};
+    res.locals.error = err;
+    // render the error page
+    res.status(err.status || 500);
+    res.render(err);
+});
 
 module.exports = app;
