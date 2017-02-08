@@ -32,28 +32,30 @@ module.exports = function (passport) {
 
             console.log('FB_USER', fbuser);
 
-            User.find({}, function (err, users) {
-                console.log('USERS_ALL: ', users);
-                users.forEach(function (user) {
-                    console.log('==========');
-                    console.log(user.facebookId);
-                    console.log(fbuser.id);
-                    console.log('==========');
-                    if (user.facebookId == fbuser.id) {
-                        return done(null, user);
-                    }
-                });
-                //return done(null, false, { message: 'User not allowed' });
-            });
-
-            // User.find({ facebookId: user.id }, function (err, users) {
-            //     console.log('USERS: ', users);
-            //     console.log('ERROR: ', err);
-            //     if (users.length > 0) {
-            //         return done(null, users[0]);
-            //     }
-            //     return done(null, false, { message: 'User not allowed' });
+            // User.find({}, function (err, users) {
+            //     console.log('USERS_ALL: ', users);
+            //     users.forEach(function (user) {
+            //         console.log('==========');
+            //         console.log(user.facebookId);
+            //         console.log(fbuser.id);
+            //         console.log('==========');
+            //         if (user.facebookId == fbuser.id) {
+            //             return done(null, user);
+            //         }
+            //     });
+            //     //return done(null, false, { message: 'User not allowed' });
             // });
+
+            User.find({ facebookId: fbuser.id }, function (err, users) {
+                console.log('USERS: ', users);
+                console.log('ERROR: ', err);
+                if (users.length > 0) {
+                    return done(null, users[0]);
+                } else {
+                    return done(null, false, { message: 'User not allowed' });
+
+                }
+            });
         }
     ));
 
