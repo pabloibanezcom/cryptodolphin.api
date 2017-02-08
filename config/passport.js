@@ -23,6 +23,8 @@ module.exports = function (passport) {
     },
         function (accessToken, refreshToken, profile, done) {
 
+            console.log('Entra');
+
             var user = {
                 'email': profile.emails[0].value,
                 'name': profile.name.givenName + ' ' + profile.name.familyName,
