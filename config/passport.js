@@ -34,16 +34,22 @@ module.exports = function (passport) {
 
             User.find({}, function (err, users) {
                 console.log('USERS_ALL: ', users);
-            });
-
-            User.find({ facebookId: user.id }, function (err, users) {
-                console.log('USERS: ', users);
-                console.log('ERROR: ', err);
-                if (users.length > 0) {
-                    return done(null, users[0]);
-                }
+                users.forEach(function (user) {
+                    if (user.facebookId == user.id) {
+                        return done(null, user);
+                    }
+                });
                 return done(null, false, { message: 'User not allowed' });
             });
+
+            // User.find({ facebookId: user.id }, function (err, users) {
+            //     console.log('USERS: ', users);
+            //     console.log('ERROR: ', err);
+            //     if (users.length > 0) {
+            //         return done(null, users[0]);
+            //     }
+            //     return done(null, false, { message: 'User not allowed' });
+            // });
         }
     ));
 
