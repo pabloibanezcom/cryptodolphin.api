@@ -32,7 +32,11 @@ module.exports = function (passport) {
                 'token': accessToken
             }
 
+            console.log('USER: ', user);
+
             User.find({ facebookId: user.id }, function (err, users) {
+                console.log('USERS: ', users);
+                console.log('ERROR: ', err);
                 if(users.length > 0) {
                     return done(null, users[0]);
                 } 
