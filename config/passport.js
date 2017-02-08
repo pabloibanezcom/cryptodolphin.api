@@ -26,7 +26,7 @@ module.exports = function (passport) {
             var user = {
                 'email': profile.emails[0].value,
                 'name': profile.name.givenName + ' ' + profile.name.familyName,
-                'id': profile.id,
+                'id': profile.id + '',
                 'token': accessToken
             }
 
@@ -34,7 +34,7 @@ module.exports = function (passport) {
                 console.log('USERS_ALL: ', users);
             });
 
-            User.find({ facebookId: user.id }, function (err, users) {
+            User.find({ 'facebookId': user.id }, function (err, users) {
                 console.log('USERS: ', users);
                 console.log('ERROR: ', err);
                 if (users.length > 0) {
