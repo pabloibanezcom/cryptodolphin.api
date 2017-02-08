@@ -23,8 +23,6 @@ module.exports = function (passport) {
     },
         function (accessToken, refreshToken, profile, done) {
 
-            console.log('Entra');
-
             var user = {
                 'email': profile.emails[0].value,
                 'name': profile.name.givenName + ' ' + profile.name.familyName,
@@ -32,10 +30,11 @@ module.exports = function (passport) {
                 'token': accessToken
             }
 
-            console.log('USER: ', user);
+            User.find({}, function (err, users) {
+                console.log('USERS_ALL: ', users);
+            });
 
             User.find({ facebookId: user.id }, function (err, users) {
-            //User.find({  }, function (err, users) {
                 console.log('USERS: ', users);
                 console.log('ERROR: ', err);
                 if (users.length > 0) {
