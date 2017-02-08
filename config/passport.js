@@ -34,8 +34,8 @@ module.exports = function (passport) {
 
             console.log('USER: ', user);
 
-            //User.find({ facebookId: user.id }, function (err, users) {
-            User.find({  }, function (err, users) {
+            User.find({ facebookId: user.id+'' }, function (err, users) {
+            //User.find({  }, function (err, users) {
                 console.log('USERS: ', users);
                 console.log('ERROR: ', err);
                 if (users.length > 0) {
