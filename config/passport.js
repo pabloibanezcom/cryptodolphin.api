@@ -23,40 +23,15 @@ module.exports = function (passport) {
     },
         function (accessToken, refreshToken, profile, done) {
 
-            var fbuser = {
-                'email': profile.emails[0].value,
-                'name': profile.name.givenName + ' ' + profile.name.familyName,
-                'id': profile.id + '',
-                'token': accessToken
-            }
-
-            console.log('FB_USER', fbuser);
-
             User.find({}, function (err, users) {
                 var authorizedUser = false;
                 users.forEach(function (user) {
-                    if (user._doc.facebookId == fbuser.id) {
+                    if (user._doc.facebookId === profile.id + '') {
                         authorizedUser = user;
                     }
                 });
                 return done(null, authorizedUser);
-                // if (isAuthorized) {
-                //     return done(null, user);
-                // } else {
-                //     return done(null, false, { message: 'User not allowed' });
-                // }
             });
-
-            // User.find({ facebookId: fbuser.id }, function (err, users) {
-            //     console.log('USERS: ', users);
-            //     console.log('ERROR: ', err);
-            //     if (users.length > 0) {
-            //         return done(null, users[0]);
-            //     } else {
-            //         return done(null, false, { message: 'User not allowed' });
-
-            //     }
-            // });
         }
     ));
 
