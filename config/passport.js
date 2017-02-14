@@ -7,14 +7,12 @@ var User = require('../app/models/user');
 // expose this function to our app using module.exports
 module.exports = function (passport) {
 
-    // used to serialize the user for the session
     passport.serializeUser(function (user, done) {
-        done(null, user.id);
+        done(null, user);
     });
 
-    // used to deserialize the user
-    passport.deserializeUser(function (id, done) {
-        done(null, id);
+    passport.deserializeUser(function (user, done) {
+        done(null, user);
     });
 
     passport.use('facebook-token', new FacebookTokenStrategy({
@@ -24,15 +22,32 @@ module.exports = function (passport) {
         function (accessToken, refreshToken, profile, done) {
 
             User.find({}, function (err, users) {
-                var authorizedUser = false;
+                var authorizedUser;
                 users.forEach(function (user) {
                     if (user._doc.facebookId === profile.id + '') {
-                        authorizedUser = user;
+                        authorizedUser = user._doc.authorised;
                     }
                 });
+                if (authorizedUser === undefined) {
+                    createNewUser(profile);
+                    authorizedUser = false;
+                }
                 return done(null, authorizedUser);
             });
         }
     ));
+
+    var createNewUser = function (profile) {
+        var newUser = new User({
+            name: profile.displayName,
+            facebookId: profile.id,
+            authorised: false,
+            registrationDate: new Date(),
+            lastAccessDate: new Date()
+        });
+        newUser.save(function (err) {
+            if (err) return handleError(err);
+        });
+    }
 
 };

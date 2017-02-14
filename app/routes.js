@@ -27,7 +27,7 @@ module.exports = function (app, passport) {
     // CHANNEL ==============================
     // =====================================
     app.get('/api/channel/:channel',
-        passport.authenticate('facebook-token', { scope: 'email' }),
+        passport.authenticate('facebook-token'),
         function (req, res) {
             requestOptions.path = '/av' + req.params.channel;
             res.setHeader('Content-Type', 'application/json');
