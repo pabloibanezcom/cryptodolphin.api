@@ -1,12 +1,30 @@
 [
     {
+        "key": "champions_league",
+        "avKeys": [
+            "Uefa champions league"
+        ],
+        "country": "eu",
+        "name": "UEFA Champions League",
+        "order": 0
+    },
+    {
+        "key": "europa_league",
+        "avKeys": [
+            "Uefa europa league"
+        ],
+        "country": "eu",
+        "name": "UEFA Europa League",
+        "order": 1
+    },
+    {
         "key": "en_1",
         "avKeys": [
             "Premier league"
         ],
         "country": "en",
         "name": "Premier league",
-        "order": 1
+        "order": 2
     },
     {
         "key": "es_1",
@@ -15,7 +33,7 @@
         ],
         "country": "es",
         "name": "La Liga",
-        "order": 2
+        "order": 3
     },
     {
         "key": "es_2",
@@ -24,7 +42,7 @@
         ],
         "country": "es",
         "name": "La Liga 123",
-        "order": 3
+        "order": 4
     },
     {
         "key": "en_cup_1",
@@ -33,7 +51,7 @@
         ],
         "country": "en",
         "name": "The Emirates FA Cup",
-        "order": 4
+        "order": 5
     },
     {
         "key": "en_cup_2",
@@ -42,7 +60,7 @@
         ],
         "country": "en",
         "name": "EFL Cup",
-        "order": 5
+        "order": 6
     },
     {
         "key": "es_cup",
@@ -51,7 +69,7 @@
         ],
         "country": "es",
         "name": "Copa del Rey",
-        "order": 5
+        "order": 7
     },
     {
         "key": "de_1",
