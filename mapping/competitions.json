@@ -38,7 +38,8 @@
     {
         "key": "es_2",
         "avKeys": [
-            "Spanish la liga 2"
+            "Spanish la liga 2",
+            "Spanish laliga 2"
         ],
         "country": "es",
         "name": "La Liga 123",
@@ -83,7 +84,9 @@
     {
         "key": "it_1",
         "avKeys": [
-            "Serie a"
+            "Serie a",
+            "Italia serie a",
+            "Italia seria a"
         ],
         "country": "it",
         "name": "Serie A",
@@ -121,7 +124,9 @@
         "key": "pt_1",
         "avKeys": [
             "Portugal liga",
-            "Portugal league" 
+            "Portugal league",
+            "Portugal a league",
+            "Portual a league"
         ],
         "country": "pt",
         "name": "Liga NOS",

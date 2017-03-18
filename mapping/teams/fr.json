@@ -1,0 +1,76 @@
+[
+    {
+        "avKeys": [
+            "PARIS SAINT GERMAIN",
+            "PSG"
+        ],
+        "key": "psg",
+        "name": "Paris Saint Germain",
+        "country": "fr"
+    },
+    {
+        "avKeys": [
+            "AS MONACO",
+            "MONACO"
+        ],
+        "key": "monaco",
+        "name": "AS Monaco",
+        "country": "fr"
+    },
+    {
+        "avKeys": [
+            "BASTIA"
+        ],
+        "key": "bastia",
+        "name": "Bastia",
+        "country": "fr"
+    },
+    {
+        "avKeys": [
+            "NANTES"
+        ],
+        "key": "nantes",
+        "name": "Nantes",
+        "country": "fr"
+    },
+    {
+        "avKeys": [
+            "NICE"
+        ],
+        "key": "nice",
+        "name": "Nice",
+        "country": "fr"
+    },
+    {
+        "avKeys": [
+            "CAEN"
+        ],
+        "key": "caen",
+        "name": "Caen",
+        "country": "fr"
+    },
+    {
+        "avKeys": [
+            "DIJON"
+        ],
+        "key": "dijon",
+        "name": "Dijon",
+        "country": "fr"
+    },
+     {
+        "avKeys": [
+            "SAINT ETIENNE"
+        ],
+        "key": "saint_etienne",
+        "name": "Saint Etienne",
+        "country": "fr"
+    },
+    {
+        "avKeys": [
+            "OLYMPIQUE LYON"
+        ],
+        "key": "lyon",
+        "name": "Olympique Lyon",
+        "country": "fr"
+    }
+]

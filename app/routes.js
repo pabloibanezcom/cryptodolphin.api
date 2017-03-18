@@ -1,5 +1,6 @@
 var http = require("http");
 var avService = require('../services/arenavision.service');
+var userService = require('../services/user.service');
 
 module.exports = function (app, passport) {
 
@@ -42,6 +43,15 @@ module.exports = function (app, passport) {
             }).on('error', function (e) {
                 console.log(e);
             });
+        });
+
+    // =====================================
+    // USERS ==============================
+    // =====================================
+    app.get('/api/users',
+        passport.authenticate('admin'),
+        function (req, res) {
+            res.send(userService.getUsers());
         });
 
     var requestOptions = {

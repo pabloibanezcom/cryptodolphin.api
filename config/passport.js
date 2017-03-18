@@ -37,6 +37,23 @@ module.exports = function (passport) {
         }
     ));
 
+    passport.use('admin', new FacebookTokenStrategy({
+        clientID: process.env.FB_APP_KEY,
+        clientSecret: process.env.FB_APP_SECRET
+    },
+        function (accessToken, refreshToken, profile, done) {
+            var isAdmin = false;
+            User.find({}, function (err, users) {
+                users.forEach(function (user) {
+                    if (user._doc.facebookId === profile.id) {
+                        isAdmin = user._doc.isAdmin;
+                    }
+                });
+                return done(null, isAdmin);
+            });
+        }
+    ));
+
     var createNewUser = function (profile) {
         var newUser = new User({
             name: profile.displayName,
