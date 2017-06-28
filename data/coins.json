@@ -1,0 +1,34 @@
+[
+    {
+        "name": "BTC",
+        "coinName": "Bitcoin",
+        "fullName": "Bitcoin (BTC)",
+        "sortOrder": 1,
+        "color": "#ffd700",
+        "fontColor": "#676a6c"
+    },
+    {
+        "name": "ETH",
+        "coinName": "Ethereum",
+        "fullName": "Ethereum (ETH)",
+        "sortOrder": 2,
+        "color": "#5d5d5d",
+        "fontColor": "white"
+    },
+    {
+        "name": "LTC",
+        "coinName": "Litecoin",
+        "fullName": "Litecoin (LTC)",
+        "sortOrder": 3,
+        "color": "#abaaaa",
+        "fontColor": "white"
+    },
+    {
+        "name": "XRP",
+        "coinName": "Ripple",
+        "fullName": "Ripple (XRP)",
+        "sortOrder": 12,
+        "color": "#0065ff",
+        "fontColor": "white"
+    }
+]

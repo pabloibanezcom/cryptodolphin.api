@@ -3,14 +3,14 @@ var mongoose = require('mongoose');
 var bcrypt = require('bcrypt-nodejs');
 
 // define the schema for our user model
-var userSchema = mongoose.Schema({
+var coinSchema = mongoose.Schema({
     name: String,
-    facebookId: String,
-    photo: String,
-    authorised: Boolean,
-    registrationDate: Date,
-    lastAccessDate: Date,
+    coinName: String,
+    fullName: String,
+    sortOrder: Number,
+    color: String,
+    fontColor: String
 });
 
 // create the model for users and expose it to our app
-module.exports = mongoose.model('User', userSchema);
+module.exports = mongoose.model('Coin', coinSchema);

@@ -1,62 +1,62 @@
 var http = require("http");
-var avService = require('../services/arenavision.service');
 var userService = require('../services/user.service');
+var coinsService = require('../services/coins.service');
+var portfolioService = require('../services/portfolio.service');
+var generationService = require('../services/generation.service');
 
-module.exports = function (app, passport) {
+module.exports = (app, passport) => {
 
     // =====================================
-    // EVENTS ==============================
+    // TEST ==============================
     // =====================================
-    app.get('/api/events',
-        passport.authenticate('facebook-token'),
-        function (req, res) {
-            requestOptions.path = "/schedule";
-            res.setHeader('Content-Type', 'application/json');
-            var store = "";
-            http.get(requestOptions, function (resp) {
-                resp.on('data', function (data) {
-                    store += data;
-                });
-                resp.on('end', function () {
-                    res.send(avService.process(store));
-                });
-            }).on('error', function (e) {
-                console.log(e);
-            });
+    app.get('/api/test',
+        //passport.authenticate('facebook-token'),
+        (req, res) => {
+            generationService.all();
+            res.send('Hecho');
         });
+
     // =====================================
-    // CHANNEL ==============================
+    // COINS ==============================
     // =====================================
-    app.get('/api/channel/:channel',
+    app.get('/api/coins',
         passport.authenticate('facebook-token'),
-        function (req, res) {
-            requestOptions.path = '/av' + req.params.channel;
-            res.setHeader('Content-Type', 'application/json');
-            var store = "";
-            http.get(requestOptions, function (resp) {
-                resp.on('data', function (data) {
-                    store += data;
-                });
-                resp.on('end', function () {
-                    res.send(avService.getChannelAS(store));
-                });
-            }).on('error', function (e) {
-                console.log(e);
-            });
+        (req, res) => {
+            coinsService.getCoins()
+                .then(coins => res.send(coins))
+                .catch(error => console.log(error));
+        });
+
+    // =====================================
+    // PORTFOLIOS ==============================
+    // =====================================
+    app.get('/api/portfolios',
+        passport.authenticate('facebook-token'),
+        (req, res) => {
+            portfolioService.getPortfolios()
+                .then(p => res.send(p))
+                .catch(error => console.log(error));
+        });
+
+    // =====================================
+    // PORTFOLIOS BALANCES ==============================
+    // =====================================
+    app.get('/api/portfolio/:portfolioId/balances',
+        passport.authenticate('facebook-token'),
+        (req, res) => {
+            portfolioService.getPortfolioBalances(req.params.portfolioId)
+                .then(b => res.send(b))
+                .catch(error => console.log(error));
         });
 
     // =====================================
     // USERS ==============================
     // =====================================
-    app.get('/api/users',
-        passport.authenticate('admin'),
-        function (req, res) {
-            res.send(userService.getUsers());
+    app.get('/api/user',
+        passport.authenticate('facebook-token'),
+        (req, res) => {
+            userService.getUser(req)
+                .then(users => res.send(users[0]))
+                .catch(error => console.log(error));
         });
-
-    var requestOptions = {
-        host: 'arenavision.in',
-        port: 80,
-        headers: { 'Cookie': 'beget=begetok' }
-    };
 };

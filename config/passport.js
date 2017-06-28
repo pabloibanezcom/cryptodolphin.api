@@ -21,16 +21,16 @@ module.exports = function (passport) {
     },
         function (accessToken, refreshToken, profile, done) {
 
-            User.find({}, function (err, users) {
+            User.find({}, (err, users) => {
                 var authorizedUser;
                 users.forEach(function (user) {
                     if (user._doc.facebookId === profile.id + '') {
-                        authorizedUser = user._doc.authorised;
+                        authorizedUser = user._doc;
                     }
                 });
                 if (authorizedUser === undefined) {
                     createNewUser(profile);
-                    authorizedUser = false;
+                    authorizedUser = true;
                 }
                 return done(null, authorizedUser);
             });
@@ -57,6 +57,7 @@ module.exports = function (passport) {
     var createNewUser = function (profile) {
         var newUser = new User({
             name: profile.displayName,
+            photo: profile.photos[0].value,
             facebookId: profile.id,
             authorised: false,
             registrationDate: new Date(),

@@ -1,0 +1,90 @@
+[
+    {
+        "date": "2017-05-30T00:00:00.000Z",
+        "coin_src": "EUR",
+        "amount_src": 283.48021712,
+        "coin_dst": "ETH",
+        "amount_dst": 1.65826392,
+        "price": 170.95
+    },
+    {
+        "date": "2017-06-05T00:00:00.000Z",
+        "coin_src": "EUR",
+        "amount_src": 691.75805528,
+        "coin_dst": "BTC",
+        "amount_dst": 0.30000001,
+        "price": 2305.86010742
+    },
+    {
+        "date": "2017-06-05T00:00:00.000Z",
+        "coin_src": "EUR",
+        "amount_src": 2743.65337001,
+        "coin_dst": "BTC",
+        "amount_dst": 1.18985605,
+        "price": 2305.87000000
+    },
+    {
+        "date": "2017-06-05T00:00:00.000Z",
+        "coin_src": "EUR",
+        "amount_src": 1014.90469945,
+        "coin_dst": "ETH",
+        "amount_dst": 4.56506252,
+        "price": 222.32
+    },
+    {
+        "date": "2017-06-09T00:00:00.000Z",
+        "coin_src": "EUR",
+        "amount_src": 1136.33329519,
+        "coin_dst": "ETH",
+        "amount_dst": 4.66666651,
+        "price": 243.5
+    },
+    {
+        "date": "2017-06-10T00:00:00.000Z",
+        "coin_src": "EUR",
+        "amount_src": 1094.71770261,
+        "coin_dst": "BTC",
+        "amount_dst": 0.43320843,
+        "price": 2527
+    },
+    {
+        "date": "2017-06-11T00:00:00.000Z",
+        "coin_src": "EUR",
+        "amount_src": 0,
+        "coin_dst": "BTC",
+        "amount_dst": 0.003368,
+        "price": 0
+    },
+    {
+        "date": "2017-06-20T00:00:00.000Z",
+        "coin_src": "BTC",
+        "amount_src": 0.15300000,
+        "coin_dst": "LTC",
+        "amount_dst": 9,
+        "price": 0.017
+    },
+    {
+        "date": "2017-06-20T00:00:00.000Z",
+        "coin_src": "BTC",
+        "amount_src": 0.00200821,
+        "coin_dst": "XRP",
+        "amount_dst": 16.72401732,
+        "price": 0.00012008
+    },
+    {
+        "date": "2017-06-20T00:00:00.000Z",
+        "coin_src": "BTC",
+        "amount_src": 0.04383262,
+        "coin_dst": "XRP",
+        "amount_dst": 363.75620964,
+        "price": 0.00012050
+    },
+    {
+        "date": "2017-06-20T00:00:00.000Z",
+        "coin_src": "BTC",
+        "amount_src": 0.15615916,
+        "coin_dst": "XRP",
+        "amount_dst": 1295.92664304,
+        "price": 0.00012050
+    }
+]

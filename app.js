@@ -18,7 +18,7 @@ mongoose.connect(process.env.MONGODB_URI); // connect to our database
 // CONNECTION EVENTS
 // When successfully connected
 mongoose.connection.on('connected', function () {  
-  console.log('Mongoose default connection open to ' + process.env.MONGODB_URI);
+  console.log('Mongoose default connection open');
 }); 
 
 // If the connection throws an error
@@ -48,7 +48,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // required for passport
 app.use(session({
-    secret: 'sportstv', // session secret
+    secret: 'cryptodolphin', // session secret
     resave: true,
     saveUninitialized: true
 }));

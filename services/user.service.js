@@ -3,11 +3,8 @@ var User = require('../app/models/user');
 
 var userService = {};
 
-userService.getUsers = function () {
-    var result = [];
-    User.find({}, function (err, users) {
-        return users;
-    });
+userService.getUser = (req) => {
+    return User.find({ 'facebookId': req.session.passport.user.facebookId });
 }
 
 module.exports = userService;
