@@ -15,6 +15,9 @@ require('dotenv').load();
 // configuration ===============================================================
 mongoose.connect(process.env.MONGODB_URI); // connect to our database
 
+console.log('FB_APP_KEY: ', process.env.FB_APP_KEY);
+console.log('FB_APP_SECRET: ', process.env.FB_APP_SECRET);
+
 // CONNECTION EVENTS
 // When successfully connected
 mongoose.connection.on('connected', function () {  
