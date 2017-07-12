@@ -1,10 +1,9 @@
 {
-  "name": "sports-tv.api",
+  "name": "cryptodolphin.api",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
-    "prestart": "node generate.json.js"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",

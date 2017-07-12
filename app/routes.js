@@ -12,8 +12,11 @@ module.exports = (app, passport) => {
     app.get('/api/test',
         //passport.authenticate('facebook-token'),
         (req, res) => {
-            generationService.all();
-            res.send('Hecho');
+            // generationService.all();
+            // res.send('Hecho');
+            coinsService.getCoins()
+                .then(coins => res.send(coins))
+                .catch(error => console.log(error));
         });
 
     // =====================================
