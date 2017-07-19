@@ -5,7 +5,28 @@ const balanceService = require('./balance.service');
 const portfolioService = {};
 
 portfolioService.getPortfolios = () => {
-    return Portfolio.find({});
+    return new Promise(function (resolve, reject) {
+        Portfolio.find({})
+            .then(portfolios => {
+                resolve(portfolios.map(p => {
+                    return {
+                        id: p._id,
+                        name: p.name,
+                        registrationDate: p.registrationDate,
+                        lastAccessDate: p.lastAccessDate
+                    };
+                }));
+            });
+    });
+}
+
+portfolioService.getPortfolio = (id) => {
+    return new Promise(function (resolve, reject) {
+        Portfolio.findById(id, (err, portfolio) => {
+            portfolio.balances = balanceService.generate(portfolio, Date.now());
+            resolve(portfolio);
+        });
+    });
 }
 
 portfolioService.addTransaction = (portfolioId, transaction) => {
@@ -21,21 +42,5 @@ portfolioService.addTransaction = (portfolioId, transaction) => {
     });
 }
 
-portfolioService.getPortfolioBalances = (portfolioId) => {
-    return new Promise(function (resolve, reject) {
-        getPortfolio(portfolioId)
-            .then(p => {
-                resolve(balanceService.generate(p, Date.now()));
-            });
-    });
-}
-
-const getPortfolio = (id) => {
-    return new Promise(function (resolve, reject) {
-        Portfolio.findById(id, (err, portfolio) => {
-            resolve(portfolio._doc);
-        });
-    });
-}
 
 module.exports = portfolioService;

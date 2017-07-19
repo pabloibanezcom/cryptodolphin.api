@@ -41,14 +41,11 @@ module.exports = (app, passport) => {
                 .catch(error => console.log(error));
         });
 
-    // =====================================
-    // PORTFOLIOS BALANCES ==============================
-    // =====================================
-    app.get('/api/portfolio/:portfolioId/balances',
+    app.get('/api/portfolios/:portfolioId',
         passport.authenticate('facebook-token'),
         (req, res) => {
-            portfolioService.getPortfolioBalances(req.params.portfolioId)
-                .then(b => res.send(b))
+            portfolioService.getPortfolio(req.params.portfolioId)
+                .then(p => res.send(p))
                 .catch(error => console.log(error));
         });
 
