@@ -23,7 +23,9 @@ portfolioService.getPortfolios = () => {
 portfolioService.getPortfolio = (id) => {
     return new Promise(function (resolve, reject) {
         Portfolio.findById(id, (err, portfolio) => {
-            portfolio.balances = balanceService.generate(portfolio, Date.now());
+            if (portfolio) {
+                portfolio.balances = balanceService.generate(portfolio, Date.now());
+            };
             resolve(portfolio);
         });
     });

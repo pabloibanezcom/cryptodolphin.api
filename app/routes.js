@@ -13,7 +13,6 @@ module.exports = (app, passport) => {
         //passport.authenticate('facebook-token'),
         (req, res) => {
             // generationService.all();
-            // res.send('Hecho');
             coinsService.getCoins()
                 .then(coins => res.send(coins))
                 .catch(error => console.log(error));
@@ -45,7 +44,7 @@ module.exports = (app, passport) => {
         //passport.authenticate('facebook-token'),
         (req, res) => {
             portfolioService.getPortfolio(req.params.portfolioId)
-                .then(p => res.send(p))
+                .then(p => processResponse(res, p))
                 .catch(error => console.log(error));
         });
 
@@ -56,7 +55,15 @@ module.exports = (app, passport) => {
         //passport.authenticate('facebook-token'),
         (req, res) => {
             userService.getUser(req)
-                .then(users => res.send(users[0]))
+                .then(users => processResponse(res, users[0]))
                 .catch(error => console.log(error));
         });
+
+    const processResponse = (res, result) => {
+        if (result) {
+            res.send(result);
+        } else {
+            res.status(404).send('Not found');
+        }
+    }
 };
