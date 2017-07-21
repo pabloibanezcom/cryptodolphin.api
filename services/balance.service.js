@@ -8,6 +8,9 @@ balanceService.generate = (portfolio, period) => {
 
 const generateBalance = (portfolio, date) => {
     let balance = { date: date, coins: {}};
+    if (!portfolio.transactions) {
+        portfolio.transactions = [];
+    }
     portfolio.transactions.forEach(t => {
         if (t.date < date) {
             processTransaction(balance.coins, t);
