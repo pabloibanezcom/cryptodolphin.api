@@ -15,23 +15,20 @@ require('dotenv').load();
 // configuration ===============================================================
 mongoose.connect(process.env.MONGODB_URI); // connect to our database
 
-console.log('FB_APP_KEY: ', process.env.FB_APP_KEY);
-console.log('FB_APP_SECRET: ', process.env.FB_APP_SECRET);
-
 // CONNECTION EVENTS
 // When successfully connected
-mongoose.connection.on('connected', function () {  
+mongoose.connection.on('connected', function () {
   console.log('Mongoose default connection open');
-}); 
+});
 
 // If the connection throws an error
-mongoose.connection.on('error',function (err) {  
+mongoose.connection.on('error', function (err) {
   console.log('Mongoose default connection error: ' + err);
-}); 
+});
 
 // When the connection is disconnected
-mongoose.connection.on('disconnected', function () {  
-  console.log('Mongoose default connection disconnected'); 
+mongoose.connection.on('disconnected', function () {
+  console.log('Mongoose default connection disconnected');
 });
 
 
@@ -51,14 +48,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // required for passport
 app.use(session({
-    secret: 'cryptodolphin', // session secret
-    resave: true,
-    saveUninitialized: true
+  secret: 'cryptodolphin', // session secret
+  resave: true,
+  saveUninitialized: true
 }));
 app.use(passport.initialize());
 app.use(passport.session()); // persistent login sessions
 app.use(flash()); // use connect-flash for flash messages stored in session
-
 
 // routes ======================================================================
 require('./app/routes.js')(app, passport); // load our routes and pass in our app and fully configured passport
@@ -72,13 +68,13 @@ require('./app/routes.js')(app, passport); // load our routes and pass in our ap
 
 // error handler
 app.use(function (err, req, res, next) {
-    // set locals, only providing error in development
-    res.locals.message = err.message;
-    //   res.locals.error = req.app.get('env') === 'development' ? err : {};
-    res.locals.error = err;
-    // render the error page
-    res.status(err.status || 500);
-    res.render(err);
+  // set locals, only providing error in development
+  res.locals.message = err.message;
+  //   res.locals.error = req.app.get('env') === 'development' ? err : {};
+  res.locals.error = err;
+  // render the error page
+  res.status(err.status || 500);
+  res.render(err);
 });
 
 module.exports = app;

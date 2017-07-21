@@ -23,7 +23,7 @@ module.exports = (app, passport) => {
     // COINS ==============================
     // =====================================
     app.get('/api/coins',
-        passport.authenticate('facebook-token'),
+        //passport.authenticate('facebook-token'),
         (req, res) => {
             coinsService.getCoins()
                 .then(coins => res.send(coins))
@@ -34,7 +34,7 @@ module.exports = (app, passport) => {
     // PORTFOLIOS ==============================
     // =====================================
     app.get('/api/portfolios',
-        passport.authenticate('facebook-token'),
+        //passport.authenticate('facebook-token'),
         (req, res) => {
             portfolioService.getPortfolios()
                 .then(p => res.send(p))
@@ -42,7 +42,7 @@ module.exports = (app, passport) => {
         });
 
     app.get('/api/portfolios/:portfolioId',
-        passport.authenticate('facebook-token'),
+        //passport.authenticate('facebook-token'),
         (req, res) => {
             portfolioService.getPortfolio(req.params.portfolioId)
                 .then(p => res.send(p))
@@ -53,7 +53,7 @@ module.exports = (app, passport) => {
     // USERS ==============================
     // =====================================
     app.get('/api/user',
-        passport.authenticate('facebook-token'),
+        //passport.authenticate('facebook-token'),
         (req, res) => {
             userService.getUser(req)
                 .then(users => res.send(users[0]))
