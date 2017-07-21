@@ -52,7 +52,7 @@ module.exports = (app, passport) => {
     // USERS ==============================
     // =====================================
     app.get('/api/user',
-        //passport.authenticate('facebook-token'),
+        passport.authenticate('facebook-token'),
         (req, res) => {
             userService.getUser(req)
                 .then(users => processResponse(res, users[0]))
